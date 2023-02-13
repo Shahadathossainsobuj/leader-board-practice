@@ -1,0 +1,78 @@
+/* fonts style */
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* font style */
+body {
+    font-family: 'Open Sans', sans-serif;
+    background-color: rgb(18, 130, 228);
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-color: aquamarine;
+    width: 870px;
+    ju
+}
+
+nav {
+    background-color: blueviolet;
+    /* display: flex; */
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+}
+
+nav h3 {
+    padding-left: 10px;
+    font-size: 25px;
+    color: white;
+    font-weight: 700;
+}
+
+.home {
+    display: flex;
+    padding-right: 20px;
+    align-items: center;
+}
+
+.home a {
+    text-decoration: none;
+    color: white;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+.home img {
+    height: 50px;
+    width: 50px;
+}
+
+.top-platyer {}
+
+.section-title {
+    color: blue;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.player {
+    display: flex;
+    align-items: center;
+}
+
+.player img {
+    width: 56px;
+    height: 56px;
+}
